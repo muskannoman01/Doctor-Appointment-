@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mediplus Clone</title>
+  <style>
+  
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #fff;
+      border-bottom: 1px solid #eee;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #007bff;
+    }
+
+    nav {
+      display: flex;
+      gap: 1.5rem;
+      
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .btn-primary {
+      background: #007bff;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .btn-secondary{
+      background-color: black;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .hero {
+      background: #f9f9f9;
+    
+      display: flex;
+      flex-wrap: wrap;
+        margin-top: 3px;
+      justify-content: left;
+    position: relative;
+        top:40px;
+}
+
+    .hero-content {
+
+      position: relative;
+      top: -650px;
+     
+
+    }
+
+    .hero-content h1{
+      font-size: 3.9rem;
+      text-align: left;
+      margin-left: 7px;
+   
+      
+    }
+
+    .hero-content h1 span {
+      color: #007bff;
+    }
+
+    .hero-content h4{
+    font-size: 2.0;
+      color: #666;
+      text-align: left;
+      margin-left: 7px;
+    
+    }
+
+    .hero .buttons {
+      margin-top: 1rem;
+      display: flex;
+      gap: 1rem;
+      justify-content: flex-start;
+      padding: 5px;
+      margin-left: 7px;
+    }
+
+   .hero .hero-image img{
+  align-self: start;
+      width: 1500px;
+      height: 700px;
+      position: relative;
+      top: -50px;
+
+    
+
+    }
+
+    .cards {
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      padding: 2rem 1rem;
+      background: #eef4fc;
+      position: relative; 
+      top: -500px;
+    }
+
+    .card {
+      background: #007bff;
+      color: white;
+      padding: 1rem;
+      border-radius: 9px;
+      flex: 1 1 250px;
+      align-items: center;
+      max-width: 300px;
+    }
+
+    .card h3 {
+      margin: 0.5rem 0;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: white;
+      text-decoration: underline;
+    }
+</style>
+
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="logo">🩺 Mediplus</div>
+     
+      <nav id="navMenu">
+        <a href="#">Home</a>
+        <a href="#">Doctors</a>
+        <a href="#">Services</a>
+        <a href="#">Pages</a>
+        <a href="#">Blogs</a>
+        <a href="#">Contact Us</a>
+        <button class="btn-primary">Book Appointment</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    
+    <div class="hero-image">
+      <img src="./360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg" alt="Medical Professional" />
+    </div>
+    <div class="hero-content">
+        <h1>We Provide <span>Medical</span> <br>
+            Services That You Can 
+            <br><span>Trust!</span></h1>
+        <h4>Lorem Ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+        <div class="buttons">
+          <button class="btn-primary">Get Appointment</button>
+          <button class="btn-secondary">Contact Now</button>
+        </div>
+      </div>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <small>Lorem Amet</small>
+      <h3>Emergency Cases</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+      <a href="#">LEARN MORE →</a>
+    </div>
+    <div class="card">
+      <small>Fusce Porttitor</small>
+      <h3>Doctors Timetable</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+      <a href="#">LEARN MORE →</a>
+    </div>
+    <div class="card">
+      <small>Donec luctus</small>
+      <h3>Opening Hours</h3>
+      <p>Mon–Fri: 8.00–20.00<br>Sat: 8.00–18.30<br>Mon–Thu: 8.00–16.00</p>
+      <a href="#">LEARN MORE →</a>
+    </div>
+  </section>
+
+</body>
+</html>
